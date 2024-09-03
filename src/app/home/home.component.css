@@ -1,0 +1,16 @@
+.home{
+  padding: 150px;
+  background-color: #1ABC9C;
+  .contant img{
+    width: 150px;
+  }
+}
+.icon{
+  font-weight: 900;
+}
+.line
+{
+  margin: 7px 2px;
+  width: 73px;
+  height: 2px;
+}

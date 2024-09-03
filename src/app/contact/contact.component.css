@@ -1,0 +1,25 @@
+.icon{
+  font-weight: 900;
+  color: #2C3E50;
+}
+.line
+{
+  margin: 7px 2px;
+  width: 73px;
+  height: 2px;
+  background-color: #2C3E50;
+}
+.btn{
+  background-color: #1abc9c;
+  color: white;
+
+}
+
+label{
+  color: #1abc9c ;
+}
+input:focus {
+  outline: none;
+
+  border-bottom: 2px solid rgb(14, 15, 15);
+}

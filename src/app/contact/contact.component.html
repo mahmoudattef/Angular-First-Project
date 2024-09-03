@@ -1,0 +1,32 @@
+<section>
+  <div class="conatainer">
+    <div class="conatact text-center">
+      <h1>conatact section</h1>
+        <div class="icon d-flex justify-content-center align-items-center mb-5 ">
+          <div class="line"></div>
+          <i class="fa-regular fa-star"></i>
+          <div class="line "></div>
+      </div>
+       <form class="w-50 m-auto text-start my-5">
+        <div class="position-relative overflow-hidden">
+          <label #myInput id="lab1" for="name" class=" top-100 position-absolute ">User Name:</label>
+          <input (input)="shoLabel('lab1','name')"   type="text" id="name" placeholder="User Name" class="w-100 border-0 border-bottom py-2 my-3 " >
+        </div>
+        <div class="position-relative overflow-hidden">
+          <label  id="lab2" for="age" class="top-100 position-absolute " >User Age:</label>
+          <input (input)="shoLabel('lab2','age')" type="text" id="age" placeholder="User age" class="w-100  border-0 border-bottom py-2 my-3" >
+        </div>
+        <div class="position-relative overflow-hidden">
+          <label id="lab3" for="email" class="top-100 position-absolute ">User Email:</label>
+          <input (input)="shoLabel('lab3','email')" type="email" id="email" placeholder="User Email" class=" w-100  border-0 border-bottom py-2 my-3" >
+        </div>
+        <div class="position-relative overflow-hidden">
+          <label id="lab4" for="Password" class="top-100 position-absolute ">User Password:</label>
+          <input (input)="shoLabel('lab4','password')" type="password" id="Password" placeholder="User Password  " class=" w-100  border-0 border-bottom py-2 my-3" >
+        </div>
+        <button class="btn my-4  ">Send Message</button>
+       </form>
+    </div>
+
+  </div>
+</section>
